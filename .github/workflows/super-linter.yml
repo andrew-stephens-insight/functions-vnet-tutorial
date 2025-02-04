@@ -36,4 +36,5 @@ jobs:
           # VALIDATE_ALL_CODEBASE: false
           # DEFAULT_BRANCH: "main"
           FIX_CSHARP: true
+          FIX_MARKDOWN: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
