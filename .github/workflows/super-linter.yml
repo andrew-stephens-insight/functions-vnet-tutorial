@@ -15,7 +15,7 @@ jobs:
   run-lint:
     runs-on: ubuntu-latest
 
-     permissions:
+    permissions:
       contents: read
       packages: read
       # To report GitHub Actions status checks
