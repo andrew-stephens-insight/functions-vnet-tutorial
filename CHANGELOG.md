@@ -10,7 +10,7 @@
 
 - ...
 
- ## Bug Fixes
+ ## BugFixes
 
 - ...
 

@@ -36,6 +36,7 @@ jobs:
           # VALIDATE_ALL_CODEBASE: false
           # DEFAULT_BRANCH: "main"
           FIX_CSHARP: true
+          FIX_YAML_PRETTIER: true
           # FIX_MARKDOWN: true
           VALIDATE_MARKDOWN: false
           VALIDATE_MARKDOWN_PRETTIER: false
