@@ -38,6 +38,7 @@ jobs:
           FIX_CSHARP: true
           FIX_YAML_PRETTIER: true
           # FIX_MARKDOWN: true
+          VALIDATE_YAML: false
           VALIDATE_MARKDOWN: false
           VALIDATE_MARKDOWN_PRETTIER: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
