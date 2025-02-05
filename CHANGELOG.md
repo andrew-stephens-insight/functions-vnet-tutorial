@@ -1,17 +1,19 @@
+#### 2025-02-04
+
 ## [project-title] Changelog
 
 <a name="x.y.z"></a>
 
 # x.y.z (yyyy-mm-dd)
 
-_Features_
+## Features
 
 - ...
 
-_Bug Fixes_
+ ## Bug Fixes
 
 - ...
 
-_Breaking Changes_
+## Breaking Changes
 
 - ...
