@@ -7,9 +7,9 @@
 name: Lint Code Base
 on:
   push:
-    branches: ["main"]
+    branches: [ $default-branch, $protected-branches ]
   pull_request:
-    branches: ["main"]
+    branches: [ $default-branch, $protected-branches ]
 
 permissions: read-all
 
