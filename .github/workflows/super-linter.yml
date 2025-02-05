@@ -37,5 +37,5 @@ jobs:
           # DEFAULT_BRANCH: "main"
           FIX_CSHARP: true
           FIX_MARKDOWN: true
-          VALIDATE_MARKDOWN: false # bypass to make scan pass.
+          VALIDATE_MARKDOWN: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
