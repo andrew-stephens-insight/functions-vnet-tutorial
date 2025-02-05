@@ -7,9 +7,9 @@
 name: Lint Code Base
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions: read-all
 
@@ -22,7 +22,7 @@ jobs:
       packages: read
       # To report GitHub Actions status checks
       statuses: write
-      
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -38,4 +38,5 @@ jobs:
           FIX_CSHARP: true
           # FIX_MARKDOWN: true
           VALIDATE_MARKDOWN: false
+          VALIDATE_MARKDOWN_PRETTIER: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -64,7 +64,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 - Search the repository (https://github.com/[organization-name]/[repository-name]/pulls) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
 
-- Make your changes in a new git fork:
+- Make your changes in a new Git fork:
 
 - Commit your changes using a descriptive commit message
 - Push your fork to GitHub:
